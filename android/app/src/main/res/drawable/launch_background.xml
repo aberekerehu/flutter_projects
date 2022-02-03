@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Modify this file to customize your launch splash screen -->
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@android:color/white" />
+    <item android:drawable="@color/background_color" />
 
     <!-- You can insert your own image assets here -->
-    <!-- <item>
+    <item>
         <bitmap
             android:gravity="center"
-            android:src="@mipmap/launch_image" />
-    </item> -->
+            android:src="@mipmap/ic_launcher" />
+    </item>
+    <item android:bottom="50dp"> // setting the image from bottom
+        <!-- <bitmap 
+            android:alpha="0.7"
+            android:gravity="bottom"
+            android:src="@drawable/feelit_logo_footer"/> -->
+            <TextView 
+            android:id="@+id/ver_name"
+           
+            android:text="Hi" 
+            />
+    </item>
 </layer-list>
