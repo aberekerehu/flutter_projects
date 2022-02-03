@@ -10,14 +10,9 @@
             android:src="@mipmap/ic_launcher" />
     </item>
     <item android:bottom="50dp"> // setting the image from bottom
-        <!-- <bitmap 
+        <bitmap 
             android:alpha="0.7"
             android:gravity="bottom"
-            android:src="@drawable/feelit_logo_footer"/> -->
-            <TextView 
-            android:id="@+id/ver_name"
-           
-            android:text="Hi" 
-            />
+            android:src="@drawable/feelit_logo_footer"/>
     </item>
 </layer-list>
